@@ -35,24 +35,6 @@ const DropdownMenu = ({ game }) => {
       <Option key="ow" value="ow">
         Overwatch
       </Option>
-      <Option key="fifa" value="fifa">
-        FIFA
-      </Option>
-      <Option key="r6siege" value="r6siege">
-        R6siege
-      </Option>
-      <Option key="rl" value="rl">
-        ROCKET
-      </Option>
-      <Option key="valorant" value="valorant">
-        VALORANT
-      </Option>
-      <Option key="kog" value="kog">
-        KING OF GLORY
-      </Option>
-      <Option key="lol-wild-rift" value="lol-wild-rift">
-        LOL WILD RIFT
-      </Option>
     </Select>
   );
 };
@@ -77,14 +59,7 @@ const Header = () => {
           </Button>,
           <Button type="default" key="3" onClick={() => push(PATHS.TEAMS.LIST)}>
             TEAMS
-          </Button>,
-          <Button
-            type="default"
-            key="4"
-            onClick={() => push(PATHS.PLAYERS.LIST)}
-          >
-            PLAYERS
-          </Button>,
+          </Button>
         ]}
       />
     </div>

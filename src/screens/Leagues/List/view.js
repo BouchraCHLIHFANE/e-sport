@@ -42,12 +42,6 @@ const View = ({ onShow, leaguesQuery, onPageChange, page }) => {
           }}
           rowKey="id"
           columns={columns}
-          rowClassName={(_, index) =>
-            className({
-              "table-row-dark": isEvenNumber(index),
-              "table-row-light": !isEvenNumber(index),
-            })
-          }
           showHeader={false}
           dataSource={data}
           pagination={false}

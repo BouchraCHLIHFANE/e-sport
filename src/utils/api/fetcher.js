@@ -1,7 +1,7 @@
 import qs from "qs";
 import { RESPONSE_TYPE } from "../constants";
 
-const baseUrl = process.env.REACT_APP_BASE_URL;
+const baseUrl = process.env.REACT_APP_URL;
 const json = RESPONSE_TYPE.JSON;
 const none = RESPONSE_TYPE.NONE;
 
@@ -9,7 +9,7 @@ const formatRequest = ({ data }) => {
   const body = JSON.stringify(data);
   const headers = {
     "Content-Type": "application/json",
-    Accept: "application/json",
+    Accept: "application/json"
   };
   return [body, headers];
 };

@@ -1,7 +1,6 @@
 import React from "react";
 import { Layout, Row, Col } from "antd";
 import Header from "./Header";
-import Footer from "./Footer";
 import './styles.css'
 
 const { Content } = Layout;
@@ -17,7 +16,6 @@ const Container = (WrappedComponent) => (props) =>
           </Col>
         </Row>
       </Content>
-      <Footer />
     </Layout>
   );
 

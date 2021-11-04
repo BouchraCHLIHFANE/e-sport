@@ -3,6 +3,3 @@ export const MapRoutes = (routes, Layout) =>
     component: Layout(Component),
     ...rest
   }));
-
-
-   export const isEvenNumber = num => num % 2 === 0;

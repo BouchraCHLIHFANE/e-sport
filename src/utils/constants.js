@@ -8,10 +8,7 @@ export const PATHS = {
     LIST: "/teams",
     DETAIL: "/teams/:id",
   },
-  PLAYERS: {
-    LIST: "/players",
-  },
-  HOME: "/",
+  HOME: "/"
 };
 
 export const RESPONSE_TYPE = {
